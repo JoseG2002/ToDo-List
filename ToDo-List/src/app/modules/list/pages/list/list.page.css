@@ -1,0 +1,47 @@
+.container{
+    width: 50%;
+    height: 100%;
+    margin: 90px auto;
+ }
+
+ h1{
+    text-align: center;
+    color: #1a1919;
+ }
+
+ .containerInput{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid var(--primary-color);
+ }
+
+ .input{
+    height: 4rem;
+    outline: none;
+    border: none;
+    border-bottom: 0.1rem solid var(--input-bottom-color);
+    background: var(--input-background-color);
+ }
+
+ .addBtn{
+    width: 6.5rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background: var(--add-btn-background);
+    color: var(--btn-color);
+    outline: none;
+    border: 0.1rem solid var(--add-btn-border);
+    cursor: pointer;
+ }
+
+ .addBtn:hover{
+    background: var(--add-btn-border);
+ }
+
+ .containerToDo{
+    width: 100%;
+    height: 100vh;
+ }

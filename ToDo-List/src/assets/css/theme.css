@@ -1,0 +1,14 @@
+body{
+    --backgound-color: #d8d6d6;
+    --scrollbar-color: #636363;
+    --primary-color: #969696;
+    --link-hover: #9c9c9c;
+    --background-btn: #208DF3;
+    --border-btn: #1c76ca;
+    --shadow-color: #000;
+    --add-btn-background: #208DF3;
+    --add-btn-border: #1c76ca;
+    --btn-color: #fff;
+    --input-bottom-color: #808080;
+    --input-background-color: #d8d6d6;
+}
