@@ -30,6 +30,16 @@ BEGIN
 END
 GO
 
+IF NOT EXISTS (SELECT * FROM [Status] WHERE StatusTask = 'Pendiente')
+BEGIN
+	INSERT INTO [Status] (StatusTask) VALUES ('Pendiente');
+END
+
+IF NOT EXISTS (SELECT * FROM [Status] WHERE StatusTask = 'Terminada')
+BEGIN
+	INSERT INTO [Status] (StatusTask) VALUES ('Terminada');
+END
+GO
 
 
 

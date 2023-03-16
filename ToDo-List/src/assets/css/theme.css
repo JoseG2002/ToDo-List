@@ -1,6 +1,7 @@
 body{
     --backgound-color: #d8d6d6;
-    --scrollbar-color: #636363;
+    --scrollbar-color: #63636300;
+    --scrollbar-thumb-color: #8d8c8c;
     --primary-color: #969696;
     --link-hover: #9c9c9c;
     --background-btn: #208DF3;

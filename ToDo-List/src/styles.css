@@ -15,7 +15,8 @@ body{
 }
 
 body::-webkit-scrollbar-thumb{
-    background: var(--scrollbar-color);
+    background: var(--scrollbar-thumb-color);
+    border-radius: 0.5rem;
 }
 
 body::-webkit-scrollbar{

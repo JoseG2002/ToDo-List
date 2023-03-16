@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "Name=ToDoList" Microsoft.EntityFrameworkCore.SqlServer -Context ToDoListDB -ContextDir Data -OutpuDir Data\Models -Force -NoPluralize
