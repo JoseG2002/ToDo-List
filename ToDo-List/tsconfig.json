@@ -24,6 +24,7 @@
       "dom"
     ],
     "paths": {
+      "@models/*":["src/app/models/*"],
       "@shared/*":["src/app/modules/shared/*"],
       "@list/*":["src/app/modules/list/*"],
       "@complete/*":["src/app/modules/complete/*"]

@@ -1,15 +1,18 @@
 body{
-    --backgound-color: #d8d6d6;
+    --backgound-color: #f5f5f5;
     --scrollbar-color: #63636300;
     --scrollbar-thumb-color: #8d8c8c;
-    --primary-color: #969696;
+    --head-color: #e6e6e6f3;
     --link-hover: #9c9c9c;
     --background-btn: #208DF3;
     --border-btn: #1c76ca;
-    --shadow-color: #000;
     --add-btn-background: #208DF3;
     --add-btn-border: #1c76ca;
+    --deleate-background-color: #ff4f30;
+    --deleate-border-color: #d62c0e;
+    --edit-background-color: #30ff5d;;
+    --edit-border-color: #0ed64a;
     --btn-color: #fff;
-    --input-bottom-color: #808080;
-    --input-background-color: #d8d6d6;
+    --input-bottom-color: #575757;
+    --input-background-color: #f5f5f5;
 }

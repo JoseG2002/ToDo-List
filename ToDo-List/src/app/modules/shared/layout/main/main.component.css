@@ -1,25 +1,26 @@
 header{
     padding: 1rem;
     height: 8rem;
-    background: var(--primary-color);
+    background: var(--head-color);
     display: flex;
     align-items: center;
-}
-
-ul{
-    display: flex;
-    align-items: center;
-    gap: 3rem;
 }
 
 a{
     text-decoration: none;
     background: var(--primary-color);
     border: 0.1px solid var(--primary-color);
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     padding: 1rem 2rem;
 }
 
 a:hover{
     background: var(--link-hover);
+    transition: all 300ms ease-in;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
 }

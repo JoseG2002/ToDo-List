@@ -1,14 +1,22 @@
 <div class="container">
-    <h1>Lista de Tareas</h1>
+    <h1>Tareas Pendientes</h1>
     <div class="containerInput">
         <input type="text" class="input" placeholder="Ingresar una tarea">
         <p>Fecha de finalización:</p>
         <input type="date" class="input">
         <button class="addBtn">Añadir</button>
     </div>
-    <div class="containerToDo">
-        <div class="containerList">
-            
+    <div *ngFor="let list of lists" class="containerList" >
+        <div class="containerToDo">
+            <input type="checkbox">
+            <p >{{list.}}</p>
+            <p>Fecha</p> 
+            <div class="Edit">
+                <button class="editBtn">Editar</button>
+            </div>
+            <div class="deleate">
+                <button class="deleateBtn">Eliminar</button>
+            </div>
         </div>
     </div>
 </div>
